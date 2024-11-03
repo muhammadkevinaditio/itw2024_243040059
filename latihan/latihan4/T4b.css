@@ -1,0 +1,110 @@
+* {
+    padding: 0;
+    margin: 0;
+    }
+    
+    body {
+        font: 16px/28px arial, sans-serif;
+        background-color: #eaeaea;
+        color: #333;
+    }
+    .container {
+        width: 800px;
+        margin: auto;
+        background-color: #fefefe;
+    }
+    .header {
+        padding: 20px;
+        padding-bottom: 10px;
+    }
+    .header .judul {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .header ul li {
+        display: inline-block;
+        margin-top: 20px;
+        margin-right: 10px;
+
+    }
+    .header a {
+        text-decoration: none;
+        color: rgb(20, 81, 212);
+        padding: 3px;
+    }
+    .header a:hover {
+        background-color: lightskyblue;
+        color: white;
+    }
+    .hero {
+        height: 250px;
+        background-image:url(image.png) ;
+        background-size: cover;
+        background-position: 0 ;
+        border-bottom: 5px solid rgb(14, 10, 240);
+        border-top: 5px solid rgb(17, 117, 230);
+    }
+    .content {
+        padding: 20px;
+    }
+    .content h2 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .content .penulis {
+        font-size: 11px;
+        margin-top: 5px;
+    
+    }
+    .content .penulis a {
+        color: rgb(9, 0, 243);
+        text-decoration: none;
+    }
+    .content p {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .content .mobil {
+        height: 500px;
+        background-image: url(mobil1.png);
+    }
+    .content .mobil2 {
+        height: 500px;
+        background-image: url(mobil2.jpeg);
+    }
+    .footer {
+        background-color: #333;
+    }
+    
+    .footer .copy {
+        color: #eaeaea;
+        text-align: center;
+        font-size: 13px;
+        padding: 10px;
+    }
+    .content #namamobil1 {
+        font-size: 12px;
+        padding-bottom: 30px;
+    }
+    .content #namamobil2 {
+        font-size: 12px;
+    }
+    .content .mobil3 {
+        background-image: url(mobil3.jpg);
+        height: 500px;
+    }
+    .content .sumber {
+        font-size: 10px;
+        font-weight: bold;
+    }
+    
+    .content .sumber .cerita {
+        color: gray;
+        font-style: italic;
+        font-weight: 100;
+    }
+    
+    .content .sumber .cerita:hover {
+        background-color: blue;
+        color: white;
+    }
