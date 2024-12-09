@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nike merch</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=0swald:wght@200;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">NIKE Shop</h2>
+          <p class="sub-heading">Sepatu & Jacket</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">IDR 1899K</h4>
+          <p class="item">Nike Zoom Vomero 5</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">IDR 3000K</h4>
+          <p class="item">Nike Puffer Jacket black</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toogle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>NIKE Shop</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="">Home</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">Product</a></li>
+          <li><a href="">gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services">
+        <div class="services">
+          <div class="icon">🛒</div>
+          <h3>order</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut
+            suscipit ex vero ducimus! Expedita,
+          </p>
+        </div>
+        <div class="services">
+          <div class="icon">👟</div>
+          <h3>Shoes</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut
+            suscipit ex vero ducimus! Expedita,
+          </p>
+        </div>
+        <div class="services">
+          <div class="icon">🧥</div>
+          <h3>Tops</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut
+            suscipit ex vero ducimus! Expedita,
+          </p>
+        </div>
+        <div class="services">
+          <div class="icon">👖</div>
+          <h3>Bottoms</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa aut
+            suscipit ex vero ducimus! Expedita,
+          </p>
+        </div>
+      </section>
+
+      <section class="gallery">
+        <h2>gallery</h2>
+        <img src="https://picsum.photos/200" alt="" />
+        <img src="https://picsum.photos/201" alt="" />
+        <img src="https://picsum.photos/203" alt="" />
+        <img src="https://picsum.photos/204" alt="" />
+        <img src="https://picsum.photos/205" alt="" />
+        <img src="https://picsum.photos/206" alt="" />
+        <img src="https://picsum.photos/207" alt="" />
+        <img src="https://picsum.photos/208" alt="" />
+        <img src="https://picsum.photos/209" alt="" />
+        <img src="https://picsum.photos/2010" alt="" />
+      </section>
+    </div>
+    <script>
+      const menuToogle = document.querySelector(".menu-toogle input");
+      const nav = document.querySelector("nav ul");
+
+      menuToogle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
